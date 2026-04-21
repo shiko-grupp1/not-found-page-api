@@ -1,6 +1,6 @@
 @NotFound.Api_HostAddress = http://localhost:5098
-
-GET {{NotFound.Api_HostAddress}}/weatherforecast/
+@NotFound.Api_Key = iqioPiQ0ZHHxEYCG83jGcVFV3tzl7iBJ
+GET {{NotFound.Api_HostAddress}}/api/not-found
 Accept: application/json
-
+X-API-KEY: {{NotFound.Api_Key}}
 ###
